@@ -54,7 +54,7 @@ function draw() {
   
   
    
-    if(keyDown("space") ) {
+    if(keyDown("7") ) {
       monkey.velocityY = -12;
     }
     monkey.velocityY = monkey.velocityY + 0.8;
@@ -64,9 +64,9 @@ function draw() {
     spawnObstacles();
  
   drawSprites();
-  stroke("white");
+  stroke("black");
   textSize(20);
-  fill("white");
+  fill("blue");
   text("Score: "+ score, 500,50);        
   
   
@@ -80,6 +80,7 @@ function draw() {
     
     
     }
+    
   
   stroke("black");
   textSize(20);
